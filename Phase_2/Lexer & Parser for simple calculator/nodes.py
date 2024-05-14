@@ -8,7 +8,7 @@ class NumberNode:
 		return f"{self.value}"
 
 @dataclass
-class AddNode:
+class AddNode:	
 	node_a: any
 	node_b: any
 

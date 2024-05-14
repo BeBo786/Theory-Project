@@ -10,7 +10,7 @@ while True:
         f = tokens
         # print(list(f))
         parser = Parser(tokens)
-        
+       
         tree = parser.parse()
         print(tree)
         if not tree:
